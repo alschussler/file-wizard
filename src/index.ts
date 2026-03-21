@@ -1,4 +1,5 @@
-import fs, { writeFile } from 'node:fs';
+#!/usr/bin/env node
+import fs from 'node:fs';
 import path from 'node:path';
 
 const CURRENT_DIR = process.cwd();

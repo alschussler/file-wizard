@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/alschussler/file-wizard.git"
   },
+  "files": [
+    "lib"
+  ],
   "license": "ISC",
   "author": "alschussler",
   "type": "module",
