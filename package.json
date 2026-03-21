@@ -1,0 +1,27 @@
+{
+  "name": "file-wizard",
+  "version": "1.0.0",
+  "description": "A CLI tool for bulk file operations — rename, create, and delete files with ease.",
+  "homepage": "https://github.com/alschussler/file-wizard#readme",
+  "bugs": {
+    "url": "https://github.com/alschussler/file-wizard/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alschussler/file-wizard.git"
+  },
+  "license": "ISC",
+  "author": "alschussler",
+  "type": "module",
+  "bin": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write .",
+    "lint:format": "prettier --check ."
+  },
+  "devDependencies": {
+    "@types/node": "24.10.2",
+    "typescript": "5.8.2",
+    "prettier": "3.6.2"
+  }
+}
