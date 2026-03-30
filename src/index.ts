@@ -85,7 +85,7 @@ class FileWizard {
 
   constructor() {
     const hasEditFile = hasWizardFile();
-    const hasLockFile = hasWizardFile();
+    const hasLockFile = hasWizardFile(true);
 
     if (hasEditFile != hasLockFile) {
       throw new Error(`[FileWizard] Wizard file is corrupted. Edit or lock file is missing.`);
